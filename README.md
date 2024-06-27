@@ -39,4 +39,20 @@ Have questions or suggestions? Feel free to reach out:
 
 Email: pandeyanshumanofficial@gmail.com
 
+## FIGMA UI :
+https://www.figma.com/design/mFpdk3ZE3uzObwH2OQmxW9/Untitled?node-id=0-1&t=QwOf8bbZ9LvevPTD-1
+
+## Screenshots :
+
+![WhatsApp Image 2024-06-27 at 23 27 02](https://github.com/anshu-6537/AppointmentApp/assets/98105620/393ad995-2b9f-47ba-9fb8-2f7f7458811e)
+![WhatsApp Image 2024-06-27 at 23 27 24 (2)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/000ec975-8f50-463d-85cc-99ee329204b5)
+![WhatsApp Image 2024-06-27 at 23 27 24 (1)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/b8f8b8cd-60de-4935-8d93-2230ca2d68ae)
+![WhatsApp Image 2024-06-27 at 23 27 24](https://github.com/anshu-6537/AppointmentApp/assets/98105620/4e547fea-25ae-41dc-b111-46988ec0b719)
+![WhatsApp Image 2024-06-27 at 23 27 25 (3)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/6f77a1bd-cc80-4559-a93d-54f21054997d)
+![WhatsApp Image 2024-06-27 at 23 27 25 (4)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/74533b0c-930e-4ee8-9556-8c6666f7ca18)
+![WhatsApp Image 2024-06-27 at 23 27 25 (5)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/975edc59-cd09-46d0-9e49-9640ef774d92)
+![WhatsApp Image 2024-06-27 at 23 27 26 (2)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/edc3797a-1ab8-43e5-80a2-75dc1665fb7c)
+![WhatsApp Image 2024-06-27 at 23 27 26](https://github.com/anshu-6537/AppointmentApp/assets/98105620/fc1b6f16-f072-4a30-941d-51d38abdcc63)
+
+
 
