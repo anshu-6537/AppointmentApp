@@ -18,15 +18,9 @@ Welcome to the Doctor Appointment Booking App! This application helps you easily
 - XML
 - A maps API key (e.g., Google Maps API)
 
-## Installation
-
-1. Clone the repository:
-   ```sh
-   [git clone https://github.com/yourusername/doctor-appointment-booking-app.git
-
-2. Open the project in Android Studio.
-
-3. Build and run the application on an emulator or physical device.
+## Documentation : 
+Please Refer the link:
+https://docs.google.com/document/d/1sprJ6t6n3PIS_8-teEADPHO5Cca-Gzz6/edit?usp=sharing&ouid=108660703018391033165&rtpof=true&sd=true
 
 ## Usage
    1. Select Category: On the home screen, select the category of doctor you need (Pediatrician, Neurologist, Dentist, Cardiologist).
@@ -43,6 +37,7 @@ Email: pandeyanshumanofficial@gmail.com
 https://www.figma.com/design/mFpdk3ZE3uzObwH2OQmxW9/Untitled?node-id=0-1&t=QwOf8bbZ9LvevPTD-1
 
 ## Video Demo :
+Please refer the link :
 https://drive.google.com/file/d/1Zm1zvYiMbUmVcOwfndHIUjwfIi4_T27G/view?usp=sharing
 
 
@@ -57,6 +52,17 @@ https://drive.google.com/file/d/1Zm1zvYiMbUmVcOwfndHIUjwfIi4_T27G/view?usp=shari
 ![WhatsApp Image 2024-06-27 at 23 27 25 (5)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/975edc59-cd09-46d0-9e49-9640ef774d92)
 ![WhatsApp Image 2024-06-27 at 23 27 26 (2)](https://github.com/anshu-6537/AppointmentApp/assets/98105620/edc3797a-1ab8-43e5-80a2-75dc1665fb7c)
 ![WhatsApp Image 2024-06-27 at 23 27 26](https://github.com/anshu-6537/AppointmentApp/assets/98105620/fc1b6f16-f072-4a30-941d-51d38abdcc63)
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   [git clone https://github.com/yourusername/doctor-appointment-booking-app.git
+
+2. Open the project in Android Studio.
+
+3. Build and run the application on an emulator or physical device.
+
 
 
 
