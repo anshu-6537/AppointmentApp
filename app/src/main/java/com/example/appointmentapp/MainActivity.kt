@@ -7,6 +7,7 @@ import android.location.Location
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -28,14 +29,35 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val spinnerSpecialty: Spinner = findViewById(R.id.spinner_specialty)
+        val cardio: ImageButton=findViewById(R.id.cardio)
+        val neuro: ImageButton=findViewById(R.id.neuro)
+        val pedia: ImageButton=findViewById(R.id.Pediatrician)
+        val ortho: ImageButton=findViewById(R.id.Ortho)
+        val dental : ImageButton=findViewById(R.id.Dento)
+        var docCat=""
+        cardio.setOnClickListener {
+            docCat="Cardiologist"
+        }
+        neuro.setOnClickListener {
+            docCat="Neurologist"
+        }
+        pedia.setOnClickListener {
+            docCat="Pediatrician"
+        }
+        ortho.setOnClickListener {
+            docCat="Orthopedist"
+        }
+        dental.setOnClickListener {
+            docCat="Dentist"
+        }
+//        val spinnerSpecialty: Spinner = findViewById(R.id.spinner_specialty)
         val buttonFindDoctors: Button = findViewById(R.id.button_find_doctors)
 
         // Populate specialties
         val specialties = listOf("Cardiologist", "Dermatologist", "Pediatrician", "General Practitioner", "Orthopedist")
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, specialties)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinnerSpecialty.adapter = adapter
+//        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, specialties)
+//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+//        spinnerSpecialty.adapter = adapter
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
 
@@ -47,12 +69,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonFindDoctors.setOnClickListener {
-            val selectedSpecialty = spinnerSpecialty.selectedItem.toString()
-            if (selectedSpecialty.isNotEmpty()) {
-                findDoctorsBySpecialty(selectedSpecialty)
-            } else {
-                Toast.makeText(this, "Please select a specialty", Toast.LENGTH_SHORT).show()
-            }
+
+            findDoctorsBySpecialty(docCat)
         }
     }
 
@@ -80,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                 location?.let {
                     userLatitude = it.latitude
                     userLongitude = it.longitude
-                    Toast.makeText(this, "Location: $userLatitude, $userLongitude", Toast.LENGTH_LONG).show()
+                    Toast.makeText(this, "Your Current Coordinates: $userLatitude, $userLongitude", Toast.LENGTH_LONG).show()
                 }
             } else {
                 Toast.makeText(this, "Unable to get location", Toast.LENGTH_SHORT).show()
